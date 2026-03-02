@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: #f2f2f2;
+}
+a{
+    text-decoration: none;
+    display: flex;
+}
+li{
+    list-style: none;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    box-shadow: #f2f2f2 0px 5px 15px;
+    border-radius: 30px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    font-weight: 1000;
+}
+ul  :hover{
+    color: black;
+}
+.nav-search{
+    display: flex;
+    width: 500px;
+    height: 34px;
+    background-color: rgb(229, 229, 237);
+    border: 5px solid black;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.search-icon{
+    margin-right: 0px;
+  width: 40px;
+  height: 25px;
+    padding-left: 11px;
+    padding-right: 13px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    padding-top: 0px;
+    font-size: large;
+}
+input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 0 10px;
+}
+.nav-search :hover{
+    background-color: black;
+    color: white;
+    border: #f2f2f2;
+}
+.nav-search :hover {
+    background-color: none;
+}
+.heading-left h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+    width: 494px;
+  height: 279px;
+  margin-left: 71px;
+  margin-top: 183px;
+}
+.heading-left p{
+    font-size: 1.8rem;
+    width: 400px;
+    height: 60px;
+    margin-left: 71px;
+    margin-top: -74px;
+}
+.pic{
+    width: 600px;
+    height: 600px;
+    margin-left: 600px;
+    margin-top: -400px;
+    background-size: cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRNwLHU5jr72ZzYs1G0Kd0V3vXKR5cTL3duA&s);
+    background-size: 600px 600px;
+   margin-top: -470px;
+  border-radius: 40px;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+   margin-left: 57px;
+  margin-top: 57px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
